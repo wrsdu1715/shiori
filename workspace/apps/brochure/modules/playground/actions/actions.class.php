@@ -11,5 +11,6 @@
     {
       // $this->forward('default', 'module');
       $this->testText = 'test';
+      $this->banquet = TravelGuide::$BANQUET;
     }
   }
