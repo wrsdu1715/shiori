@@ -7,13 +7,13 @@
 </header>
 <ul class="menu">
   <li class="menu_list">
-    <a href="indexSuccess.php">スケジュール</a>
+    <a href="/playground">スケジュール</a>
   </li>
   <li class="menu_list">
-    <a href="roomSuccess.php">部屋割り</a>
+    <a href="/playground/room">部屋割り</a>
   </li>
   <li class="menu_list">
-    <a href="#">座席</a>
+    <a href="/playground/seat/">座席</a>
   </li>
   <li class="menu_list">
     <a href="#">宴会</a>

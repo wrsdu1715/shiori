@@ -6,6 +6,7 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_stylesheets() ?>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <?php echo $sf_content ?>
