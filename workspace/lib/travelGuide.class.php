@@ -22,6 +22,58 @@
         ),
         "btn" => "",
       ),
+      array(
+        "title" => "【午前】各エリア出発",
+        "areaList" => array(
+          array(
+            "secondTitle" => "▫️関東(ひかり503号)",
+            "detail" => array(
+              "7:33 東京駅(出発)",
+              "7:50 品川駅(出発)"
+            )
+          ),
+        ),
+        "btn" => "a",
+      ),
+      array(
+        "title" => "【午前】各エリア出発",
+        "areaList" => array(
+          array(
+            "secondTitle" => "▫️関東(ひかり503号)",
+            "detail" => array(
+              "7:33 東京駅(出発)",
+              "7:50 品川駅(出発)"
+            )
+          ),
+        ),
+        "btn" => "a",
+      ),
+      array(
+        "title" => "【午前】各エリア出発",
+        "areaList" => array(
+          array(
+            "secondTitle" => "▫️関東(ひかり503号)",
+            "detail" => array(
+              "7:33 東京駅(出発)",
+              "7:50 品川駅(出発)"
+            )
+          ),
+        ),
+        "btn" => "a",
+      ),
+      array(
+        "title" => "【午前】各エリア出発",
+        "areaList" => array(
+          array(
+            "secondTitle" => "▫️関東(ひかり503号)",
+            "detail" => array(
+              "7:33 東京駅(出発)",
+              "7:50 品川駅(出発)"
+            )
+          ),
+        ),
+        "btn" => "a",
+      ),
     );
 
     //部屋割り

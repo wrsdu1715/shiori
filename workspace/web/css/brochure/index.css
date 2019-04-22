@@ -192,6 +192,14 @@ body{
   background: #fff;
   padding: 15px;
   position: relative;
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1200ms;
+}
+
+.show{
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 .l-content_box::after{

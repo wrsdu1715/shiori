@@ -58,4 +58,22 @@ $(function () {
     }, 1000);
   }
   */
+
+  //fadeIn用クラス付与
+  $('.l-content div:nth-child(-n+3)').addClass('show');
+
+  //スクロールfadeIn
+  $(window).scroll(function () {
+    $('.l-content_box').each(function () {
+      //各要素の高さを取得
+      var topHeight = $(this).offset().top;
+      //スクロール量を取得
+      var scroll = $(window).scrollTop();
+      //ブラウザの高さを取得
+      var fadeIn = $(window).height();
+      if (scroll > topHeight - fadeIn + 100) {
+        $(this).addClass('show');
+      }
+    });
+  });
 });
