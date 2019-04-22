@@ -14,6 +14,7 @@ a{
 body{
   background: var(--backcolor);
   padding: 0 15px 0 23px;
+  height: 100vh;
 }
 
 /* メニュー */

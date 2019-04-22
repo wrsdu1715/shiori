@@ -13,16 +13,16 @@
     <a href="/playground/room">部屋割り</a>
   </li>
   <li class="menu_list">
-    <a href="/playground/seat/">座席</a>
+    <a href="/playground/seat">座席</a>
   </li>
   <li class="menu_list">
-    <a href="#">宴会</a>
+    <a href="/playground/banquet">宴会</a>
   </li>
   <li class="menu_list">
-    <a href="#">お知らせ</a>
+    <a href="/playground/notice">お知らせ</a>
   </li>
   <li class="menu_list">
-    <a href="#">緊急連絡先</a>
+    <a href="/playground/contact">緊急連絡先</a>
   </li>
 </ul>
 <?php //FV ?>

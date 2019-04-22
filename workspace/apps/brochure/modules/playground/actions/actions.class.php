@@ -11,11 +11,7 @@
     {
       // $this->forward('default', 'module');
       $this->testText = 'test';
-      $this->banquet = TravelGuide::$BANQUET;
       $this->schedule = TravelGuide::$SCHEDULE;
-      $this->joinTeam = TravelGuide::$JOINTEAM;
-      $this->notice = TravelGuide::$NOTICE;
-      $this->banquetList = TravelGuide::$BANQUETLIST;
     }
 
     public function executeRoom(sfWebRequest $request)
@@ -26,5 +22,20 @@
     public function executeSeat(sfWebRequest $request)
     {
       $this->seatList = TravelGuide::$SEATLIST;
+    }
+
+    public function executeBanquet(sfWebRequest $request)
+    {
+      $this->banquet = TravelGuide::$BANQUET;
+      $this->joinTeam = TravelGuide::$JOINTEAM;
+      $this->banquetList = TravelGuide::$BANQUETLIST;
+    }
+    public function executeNotice(sfWebRequest $request)
+    {
+      $this->notice = TravelGuide::$NOTICE;
+    }
+
+    public function executeContact(sfWebRequest $request)
+    {
     }
   }
