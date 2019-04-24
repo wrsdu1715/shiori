@@ -37,7 +37,8 @@
           <?php } ?>
           <?php if (!(empty($value[btn]))) { ?>
           <p class="l-content_btn">
-            <?php echo $value[btn] ?>
+            ボタン
+            <a href=<?php echo $value[btn] ?>></a>
           </p>
           <?php } ?>
         </div>
