@@ -27,5 +27,5 @@
 </ul>
 <?php //FV ?>
 <section class="fv">
-  <img src="" alt="FVになります">
+  <?php echo image_tag('hoge.jpg') ?>
 </section>

@@ -1,6 +1,4 @@
-<?php //時間設定をしてその時間まで情報が解禁されない ?>
-<?php if (strtotime(date('Y-m-d H:i')) > strtotime('2019-04-22 10:00')) { ?>
-<?php //メニュー ?>
+
 <?php include('common.php'); ?>
 
 <?php //スケジュール ?>
@@ -21,7 +19,7 @@
         foreach ($schedule as $value) {?>
         <div class="l-content_box">
           <h3 class="l-content_box_itemTitle">
-            <?php echo $value[title] ?>
+            <?php echo $value['title'] ?>
           </h3>
           <?php foreach($value["areaList"] as $test) { ?>
             <p class="l-content_box_itemText">
@@ -35,10 +33,10 @@
             </p>
             <?php } ?>
           <?php } ?>
-          <?php if (!(empty($value[btn]))) { ?>
+          <?php if (!(empty($value['btn']))) { ?>
           <p class="l-content_btn">
             ボタン
-            <a href=<?php echo $value[btn] ?>></a>
+            <a href=<?php echo $value['btn'] ?>></a>
           </p>
           <?php } ?>
         </div>
@@ -46,7 +44,3 @@
     </div>
   </div>
 </section>
-<?php } else { ?>
-  <p>社員旅行情報解禁まで</p>
-  <p id="timer"></p>
-<?php } ?>
