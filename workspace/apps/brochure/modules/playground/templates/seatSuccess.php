@@ -1,5 +1,5 @@
 <?php //メニュー ?>
-<?php include('common.php'); ?>
+<?php include('header.php'); ?>
 
 <section class="seat">
   <h2 class="l-sectionTitle">
@@ -22,3 +22,6 @@
   </div>
   <?php } ?>
 </section>
+
+<?php //フッターメニュー ?>
+<?php include('footer.php'); ?>

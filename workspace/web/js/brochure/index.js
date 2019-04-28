@@ -49,4 +49,14 @@ $(function () {
       }
     });
   });
+
+  $('#plusBtn').on('click', function () {
+    $(this).toggleClass('active');
+    $('.footer_menu_list.sub').show();
+    if ($(this).hasClass('active')) {
+      $(this).find('img').attr('src', '/images/minus.png')
+    } else {
+      $(this).find('img').attr('src', '/images/puls.png')
+    }
+  });
 });

@@ -1,6 +1,6 @@
 
 <?php //メニュー ?>
-<?php include('common.php'); ?>
+<?php include('header.php'); ?>
 
 <section class="notice">
   <h2 class="l-sectionTitle">
@@ -19,3 +19,6 @@
     <?php } ?>
   </div>
 </section>
+
+<?php //フッターメニュー ?>
+<?php include('footer.php'); ?>

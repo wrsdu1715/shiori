@@ -12,7 +12,7 @@
       // $this->forward('default', 'module');
       $this->testText = 'test';
       $this->schedule = TravelGuide::$SCHEDULE;
-      
+
       if(strtotime(date('Y-m-d H:i')) < strtotime('2019-04-24 10:00')){
         $this->setTemplate('teaser');
       }
@@ -40,6 +40,10 @@
     }
 
     public function executeContact(sfWebRequest $request)
+    {
+    }
+
+    public function executeFooter(sfWebRequest $request)
     {
     }
   }

@@ -1,7 +1,7 @@
 
 
 <?php //メニュー ?>
-<?php include('common.php'); ?>
+<?php include('header.php'); ?>
 
 <section class="banquet">
   <h2 class="l-sectionTitle">
@@ -43,3 +43,6 @@
     <?php } ?>
   </ul>
 </section>
+
+<?php //フッターメニュー ?>
+<?php include('footer.php'); ?>

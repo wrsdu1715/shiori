@@ -1,5 +1,5 @@
 
-<?php include('common.php'); ?>
+<?php include('headerSuccess.php'); ?>
 
 <?php //スケジュール ?>
 <section class="schedule">
@@ -44,3 +44,6 @@
     </div>
   </div>
 </section>
+
+<?php //フッターメニュー ?>
+<?php include('footerSuccess.php'); ?>

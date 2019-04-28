@@ -1,5 +1,6 @@
 <?php //メニュー ?>
-<?php include('common.php'); ?>
+<?php include('header.php'); ?>
+
 <section class="room">
   <h2 class="l-sectionTitle">
     -お部屋-
@@ -25,3 +26,6 @@
     ※ピンクの方は、お子様とご一緒にお願いします。
   </p>
 </section>
+
+<?php //フッターメニュー ?>
+<?php include('footer.php'); ?>
