@@ -1,5 +1,5 @@
 <?php //メニュー ?>
-<?php include('header.php'); ?>
+<?php include('headerSuccess.php'); ?>
 
 <section class="contact">
   <h2 class="l-sectionTitle">
@@ -15,4 +15,4 @@
   </div>
 </section>
 <?php //フッターメニュー ?>
-<?php include('footer.php'); ?>
+<?php include('footerSuccess.php'); ?>
