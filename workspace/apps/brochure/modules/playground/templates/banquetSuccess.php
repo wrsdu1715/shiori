@@ -1,5 +1,5 @@
 
-
+<article>
 <?php //メニュー ?>
 <?php include('common.php'); ?>
 
@@ -43,3 +43,4 @@
     <?php } ?>
   </ul>
 </section>
+</article>
