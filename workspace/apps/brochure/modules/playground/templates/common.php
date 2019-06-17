@@ -8,6 +8,8 @@
 <ul class="menu">
   <li class="menu_list">
     <a href="/playground">スケジュール</a>
+
+
   </li>
   <li class="menu_list">
     <a href="/playground/room">部屋割り</a>

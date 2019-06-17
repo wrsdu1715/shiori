@@ -1,4 +1,4 @@
-$(window).on('load', function () {
+/*$(window).on('load', function () {
   $('body').removeClass('fadeout');
 });
 
@@ -62,7 +62,7 @@ $(function () {
     }, 1000);
   }
   */
-
+/*
   //fadeIn用クラス付与
   $('.l-content div:nth-child(-n+3)').addClass('show');
 
@@ -96,3 +96,5 @@ $(function () {
     });
   });
 });
+
+*/
