@@ -1,4 +1,4 @@
-:root{
+:root {
   --backcolor: #FFFBF2;
   --daycolor: #8CC63E;
 }
@@ -7,27 +7,32 @@ li {
   list-style-type: none;
 }
 
-a{
+a {
   color: #fff;
 }
 
-body{
+body {
   background: var(--backcolor);
   padding: 0 15px 0 23px;
 }
 
-body::after{
+body::after {
   content: '';
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:gold;  /* 背景カラー */
-  z-index: 9999;  /* 一番手前に */
-  pointer-events: none;  /* 他の要素にアクセス可能にするためにポインターイベントは無効に */
-  opacity: 0;  /* 初期値 : 透過状態 */
-  -webkit-transition: opacity .8s ease;  /* アニメーション時間は 0.8秒 */
+  background-color: gold;
+  /* 背景カラー */
+  z-index: 9999;
+  /* 一番手前に */
+  pointer-events: none;
+  /* 他の要素にアクセス可能にするためにポインターイベントは無効に */
+  opacity: 0;
+  /* 初期値 : 透過状態 */
+  -webkit-transition: opacity .8s ease;
+  /* アニメーション時間は 0.8秒 */
   transition: opacity .8s ease;
 }
 
@@ -36,7 +41,7 @@ body.fadeout::after {
 }
 
 /* メニュー */
-.menu{
+.menu {
   width: 100%;
   background-color: gold;
   color: white;
@@ -47,17 +52,17 @@ body.fadeout::after {
   z-index: 6;
 }
 
-.menu_list{
+.menu_list {
   font-size: 1.1rem;
   line-height: 3rem;
 }
 
-.menu_list:nth-of-type(1){
+.menu_list:nth-of-type(1) {
   padding-top: 100px;
 }
 
 /* ハンバーガーメニュー */
-.burger{
+.burger {
   width: 30px;
   height: 21px;
   cursor: pointer;
@@ -67,7 +72,7 @@ body.fadeout::after {
   margin: 45px 45px 0 auto;
 }
 
-.burger > div{
+.burger>div {
   width: 100%;
   height: 3px;
   background-color: #444;
@@ -75,7 +80,7 @@ body.fadeout::after {
   position: absolute;
 }
 
-.burger_normal:first-child{
+.burger_normal:first-child {
   top: 0;
   left: 0;
   transition: 0.2s;
@@ -108,26 +113,33 @@ body.fadeout::after {
   0% {
     transform: rotate(0deg);
   }
+
   0% {
     top: 0;
   }
+
   100% {
     transform: rotate(45deg);
   }
+
   100% {
     top: 10px;
   }
 }
+
 @keyframes bottom {
   0% {
     transform: rotate(0deg);
   }
+
   0% {
     top: 21px;
   }
+
   100% {
     transform: rotate(-45deg);
   }
+
   100% {
     top: 10px;
   }
@@ -135,27 +147,27 @@ body.fadeout::after {
 
 
 /* スケジュール */
-.schedule{
+.schedule {
   padding-bottom: 30px;
 }
 
-.l-sectionTitle{
+.l-sectionTitle {
   font-size: 1.2rem;
 }
 
-.schedule_content{
+.schedule_content {
   display: flex;
   padding-top: 50px;
 }
 
 /* スケジュール左側 */
-.l-day{
+.l-day {
   width: 25%;
   text-align: center;
   position: relative;
 }
 
-.l-day::after{
+.l-day::after {
   content: "";
   position: absolute;
   top: 20px;
@@ -166,7 +178,7 @@ body.fadeout::after {
   z-index: 1;
 }
 
-.l-day_text{
+.l-day_text {
   width: 80%;
   padding: 3px;
   background: var(--daycolor);
@@ -176,51 +188,41 @@ body.fadeout::after {
   margin: 0 auto;
 }
 
-.l-day_text span{
+.l-day_text span {
   font-size: 0.8rem;
 }
 
-.l-day_textDay{
-  width: 80%;
-  padding: 3px;
-  background: var(--daycolor);
-  border-radius: 7px;
-  color: #fff;
-  font-size: 0.9rem;
+.l-day_text.day {
   position: absolute;
   top: 343px;
   left: 10px;
   z-index: 2;
 }
 
-.l-day_textDay span{
-  font-size: 0.8rem;
-}
-
 /* スケジュール右側 */
-.l-content{
+.l-content {
   width: calc(100% - 20%);
   margin-top: 50px;
   text-align: left;
   border-radius: 7px;
 }
 
-.l-content_box{
+.l-content_box {
   margin-bottom: 30px;
   background: #fff;
   padding: 15px;
   position: relative;
   opacity: 0;
-  transform : translate(0, 50px);
-  transition : all 1200ms;
+  transform: translate(0, 50px);
+  transition: all 1200ms;
 }
 
-.show{
+.show {
   opacity: 1;
   transform: translate(0, 0);
 }
 
-.l-content_box::after{
+.l-content_box::after {
   width: 16%;
   content: "";
   position: absolute;
@@ -230,23 +232,23 @@ body.fadeout::after {
   background-color: #fff;
 }
 
-.l-content_box_itemTitle{
+.l-content_box_itemTitle {
   border-bottom: 1px dashed #8CC63E;
   font-size: 1.1rem;
   padding-bottom: 2px;
 }
 
-.l-content_box_itemText{
+.l-content_box_itemText {
   font-size: 0.9rem;
   padding-top: 5px;
 }
 
-.l-content_box_itemDetail{
+.l-content_box_itemDetail {
   font-size: 0.8rem;
   padding: 2px 0 0 1rem;
 }
 
-.l-content_btn{
+.l-content_btn {
   text-align: center;
   background: var(--daycolor);
   width: calc(100% - 20%);
@@ -254,14 +256,14 @@ body.fadeout::after {
   border-radius: 7px;
 }
 
-.l-content_btn a{
+.l-content_btn a {
   padding: 5px 50px;
   display: block;
   color: #fff;
 }
 
 /* 部屋割り */
-.l-list{
+.l-list {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -269,7 +271,7 @@ body.fadeout::after {
   padding-top: 10px;
 }
 
-.l-list_item{
+.l-list_item {
   width: calc(100% / 3 - 10px);
   background: #fff;
   border-radius: 7px;
@@ -277,25 +279,25 @@ body.fadeout::after {
   margin-top: 10px;
 }
 
-.l-list_itemTitle{
+.l-list_itemTitle {
   background: #8CC63E;
   border-radius: 7px;
   padding: 3px 0;
   color: #fff;
 }
 
-.l-list_itemtName{
+.l-list_itemtName {
   font-size: 0.85rem;
 }
 
-.room_cautionBlue{
+.room_cautionBlue {
   font-size: 0.7rem;
   position: relative;
   text-align: left;
   padding: 10px 0 0 11%;
 }
 
-.room_cautionBlue::before{
+.room_cautionBlue::before {
   content: "";
   width: 10%;
   height: 10px;
@@ -306,14 +308,14 @@ body.fadeout::after {
   border-radius: 7px;
 }
 
-.room_cautionPink{
+.room_cautionPink {
   font-size: 0.7rem;
   position: relative;
   text-align: left;
   padding-left: 11%;
 }
 
-.room_cautionPink::before{
+.room_cautionPink::before {
   content: "";
   width: 10%;
   height: 10px;
@@ -325,18 +327,18 @@ body.fadeout::after {
 }
 
 /* 座席 */
-.seat_content{
+.seat_content {
   display: flex;
   margin-top: 10px;
 }
 
-.seat_content_group{
+.seat_content_group {
   text-align: center;
   background-color: #8CC63E;
   border-radius: 7px;
 }
 
-.seat_content_groupText{
+.seat_content_groupText {
   padding: 0 7px;
   color: #fff;
   height: 100%;
@@ -344,7 +346,7 @@ body.fadeout::after {
   align-items: center;
 }
 
-.seat_content_duty{
+.seat_content_duty {
   padding: 10px 10px 10px 20px;
   background-color: #fff;
   width: 93%;
@@ -352,41 +354,41 @@ body.fadeout::after {
 }
 
 /* 宴会 */
-.banquet_text{
+.banquet_text {
   text-align: left;
   font-size: 0.9rem;
   padding-top: 10px;
 }
 
-.banquet_join_text{
+.banquet_join_text {
   font-size: 0.9rem;
 }
 
 
 /* 宴会座席 */
-.notice_content{
+.notice_content {
   padding-top: 10px;
 }
 
-.notice_content_wrapper{
+.notice_content_wrapper {
   display: flex;
   padding: 10px 0 5px;
   border-bottom: 1px solid #8CC63E;
 }
 
-.notice_content_day{
+.notice_content_day {
   font-size: 0.8rem;
   width: 20%;
 }
 
-.notice_content_text{
+.notice_content_text {
   font-size: 0.8rem;
   width: 80%;
   text-align: left;
 }
 
 /* 緊急連絡先 */
-.contact_content{
+.contact_content {
   display: flex;
   justify-content: space-around;
   font-size: 0.9rem;
@@ -394,10 +396,10 @@ body.fadeout::after {
   border-bottom: 1px solid #8CC63E;
 }
 
-.contact_content_name{
+.contact_content_name {
   text-align: left;
 }
 
-.contact_content_tel{
+.contact_content_tel {
   text-align: right;
 }

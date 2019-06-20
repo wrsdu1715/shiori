@@ -1,15 +1,22 @@
 <?php
   class TravelGuide{
 
+    public static $RELEASE = '2019-04-22 10:00';
+
     //宴会時間
-    static $BANQUET = array(
+    public static $BANQUET = array(
       "time" => "17:50",
       "place" => "旅館2F「比良の間」"
     );
 
     //スケジュール
-    static $SCHEDULE = array(
-      array(
+    public  static $SCHEDULE = array(
+      'date'  =>  array(
+                  '2019-04-04',
+                  '2019-04-05',
+      ),
+
+      /*array(
         "title" => "【午前】各エリア出発",
         "areaList" => array(
           array(
@@ -73,11 +80,11 @@
           ),
         ),
         "btn" => "a",
-      ),
+      ),*/
     );
 
     //部屋割り
-    static $LOOMLIST = array(
+    public static $LOOMLIST = array(
       array(
         "number" => "601",
         "members" => array(
@@ -104,7 +111,7 @@
     );
 
     //バス割り
-    static $SEATLIST = array(
+    public static $SEATLIST = array(
       "A" => array(
         "役員陣",
         "第１マーケティング部",
@@ -118,14 +125,14 @@
     );
 
     //余興参加チーム
-    static $JOINTEAM = array(
+    public static $JOINTEAM = array(
       "hoge",
       "hogehoge",
       "hogehogehoge"
     );
 
     //宴会座席
-    static $BANQUETLIST = array(
+    public static $BANQUETLIST = array(
       "A" => array(
         "津田 亮",
         "津田だ りょうう"
@@ -151,9 +158,19 @@
     );
 
     //お知らせ
-    static $NOTICE = array(
+    public static $NOTICE = array(
       '4/16(金)' => "hogehogehogehogehogehogehogehogehogehogehogehogehogehog",
       '4/15(金)' => "hogehogehogehogehogehogehogehogehogehogehogehogehogehog"
+    );
+
+    public static  $week  =  array(
+      '日',
+      '月',
+      '火',
+      '水',
+      '木',
+      '金',
+      '土',
     );
   }
 ?>

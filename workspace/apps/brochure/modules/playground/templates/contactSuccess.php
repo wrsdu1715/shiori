@@ -1,6 +1,3 @@
-<?php //メニュー ?>
-<?php include('common.php'); ?>
-
 <section class="contact">
   <h2 class="l-sectionTitle">
     -緊急連絡先-

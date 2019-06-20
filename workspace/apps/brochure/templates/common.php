@@ -7,27 +7,21 @@
 </header>
 <ul class="menu">
   <li class="menu_list">
-    <a href="/playground">スケジュール</a>
-
-
+    <?php echo link_to('スケジュール', 'homepage') ?>
   </li>
   <li class="menu_list">
-    <a href="/playground/room">部屋割り</a>
+    <?php echo link_to('部屋割り', 'room_list') ?>
   </li>
   <li class="menu_list">
-    <a href="/playground/seat">座席</a>
+    <?php echo link_to('座席', 'seat') ?>
   </li>
   <li class="menu_list">
-    <a href="/playground/banquet">宴会</a>
+    <?php echo link_to('宴会', 'menu_list') ?>
   </li>
   <li class="menu_list">
-    <a href="/playground/notice">お知らせ</a>
+    <?php echo link_to('お知らせ', 'notice') ?>
   </li>
   <li class="menu_list">
-    <a href="/playground/contact">緊急連絡先</a>
+    <?php echo link_to('緊急連絡先', 'contact') ?>
   </li>
 </ul>
-<?php //FV ?>
-<section class="fv">
-  <img src="" alt="FVになります">
-</section>

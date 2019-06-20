@@ -9,9 +9,7 @@
      */
     public function executeIndex(sfWebRequest $request)
     {
-      // $this->forward('default', 'module');
-      $this->testText = 'test';
-      $this->schedule = TravelGuide::$SCHEDULE;
+      //$this->forward('default_index', 'module');
     }
 
     public function executeRoom(sfWebRequest $request)

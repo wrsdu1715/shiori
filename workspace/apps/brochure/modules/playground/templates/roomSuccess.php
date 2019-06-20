@@ -1,5 +1,3 @@
-<?php //メニュー ?>
-<?php include('common.php'); ?>
 <section class="room">
   <h2 class="l-sectionTitle">
     -お部屋-

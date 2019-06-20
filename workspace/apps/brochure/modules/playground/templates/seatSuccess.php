@@ -1,6 +1,3 @@
-<?php //メニュー ?>
-<?php include('common.php'); ?>
-
 <section class="seat">
   <h2 class="l-sectionTitle">
     -座席-

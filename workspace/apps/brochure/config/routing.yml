@@ -4,13 +4,30 @@
 # default rules
 homepage:
   url:   /
-  param: { module: default, action: index }
+  param: { module: playground, action: Index }
 
 # generic rules
 # please, remove them by adding more specific rules
-default_index:
-  url:   /:module
-  param: { action: index }
+
+room_list:
+  url:  /room
+  param:  { module: playground, action: Room }
+
+seat:
+  url:  /seat
+  param:  { module: playground, action: Seat }
+
+menu_list:
+  url:  /menu_list
+  param:  { module: playground, action: Seat }
+
+notice:
+  url:  /notice
+  param:  { module: playground, action: Notice }
+
+contact:
+  url:  /contact
+  param:  { module: playground, action: Contact }
 
 default:
   url:   /:module/:action/*

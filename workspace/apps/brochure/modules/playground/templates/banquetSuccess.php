@@ -1,8 +1,3 @@
-
-<article>
-<?php //メニュー ?>
-<?php include('common.php'); ?>
-
 <section class="banquet">
   <h2 class="l-sectionTitle">
     -宴会-
@@ -43,4 +38,3 @@
     <?php } ?>
   </ul>
 </section>
-</article>

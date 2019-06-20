@@ -9,6 +9,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
+    <?php include('common.php'); ?>
+    <section class="main">
+      <img src="" alt="FVになります">
+    </section>
     <?php echo $sf_content ?>
     <?php include_javascripts() ?>
   </body>
