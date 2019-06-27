@@ -1,3 +1,5 @@
+<?php $roomList = TravelGuide::$ROOMLIST; ?>
+
 <section class="room">
   <h2 class="l-sectionTitle">
     -お部屋-

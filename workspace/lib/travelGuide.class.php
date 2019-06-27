@@ -3,20 +3,14 @@
 
     public static $RELEASE = '2019-04-22 10:00';
 
-    //宴会時間
-    public static $BANQUET = array(
-      "time" => "17:50",
-      "place" => "旅館2F「比良の間」"
+    public static $SCHEDULE_DAY = array(
+      '2019-04-04',
+      '2019-04-05',
     );
 
     //スケジュール
     public  static $SCHEDULE = array(
-      'date'  =>  array(
-                  '2019-04-04',
-                  '2019-04-05',
-      ),
-
-      /*array(
+      array(
         "title" => "【午前】各エリア出発",
         "areaList" => array(
           array(
@@ -47,7 +41,7 @@
         "areaList" => array(
           array(
             "secondTitle" => "▫️関東(ひかり503号)",
-            "detail" => array(
+            "detail"      => array(
               "7:33 東京駅(出発)",
               "7:50 品川駅(出発)"
             )
@@ -80,11 +74,11 @@
           ),
         ),
         "btn" => "a",
-      ),*/
+      ),
     );
 
     //部屋割り
-    public static $LOOMLIST = array(
+    public static $ROOMLIST = array(
       array(
         "number" => "601",
         "members" => array(
@@ -131,6 +125,12 @@
       "hogehogehoge"
     );
 
+    //宴会時間
+    public static $BANQUET = array(
+      "time" => "17:50",
+      "place" => "旅館2F「比良の間」"
+    );
+
     //宴会座席
     public static $BANQUETLIST = array(
       "A" => array(
@@ -161,16 +161,6 @@
     public static $NOTICE = array(
       '4/16(金)' => "hogehogehogehogehogehogehogehogehogehogehogehogehogehog",
       '4/15(金)' => "hogehogehogehogehogehogehogehogehogehogehogehogehogehog"
-    );
-
-    public static  $week  =  array(
-      '日',
-      '月',
-      '火',
-      '水',
-      '木',
-      '金',
-      '土',
     );
   }
 ?>

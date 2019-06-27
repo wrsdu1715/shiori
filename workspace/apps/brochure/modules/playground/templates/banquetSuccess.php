@@ -1,3 +1,6 @@
+<?php $banquet = TravelGuide::$BANQUET;?>
+<?php $joinTeam = TravelGuide::$JOINTEAM;?>
+<?php $banquetList = TravelGuide::$BANQUETLIST;?>
 <section class="banquet">
   <h2 class="l-sectionTitle">
     -宴会-

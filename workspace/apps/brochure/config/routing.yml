@@ -19,7 +19,7 @@ seat:
 
 menu_list:
   url:  /menu_list
-  param:  { module: playground, action: Seat }
+  param:  { module: playground, action: Banquet }
 
 notice:
   url:  /notice

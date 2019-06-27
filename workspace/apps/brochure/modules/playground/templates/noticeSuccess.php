@@ -1,3 +1,4 @@
+<?php $notice = TravelGuide::$NOTICE; ?>
 <section class="notice">
   <h2 class="l-sectionTitle">
     -お知らせ-
