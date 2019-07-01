@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -6,18 +7,75 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,10 +84,20 @@ time, mark, audio, video {
   line-height: 150%;
   vertical-align: baseline;
   background: transparent;
+  font-family: M PLUS Rounded 1c;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -37,12 +105,15 @@ nav ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -72,7 +143,8 @@ del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
@@ -91,7 +163,8 @@ hr {
   padding: 0;
 }
 
-input, select {
+input,
+select {
   vertical-align: middle;
 }
 
@@ -107,13 +180,14 @@ html {
 }
 
 body {
-  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   height: 100%;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-hr, legend {
+hr,
+legend {
   display: none;
 }
 
@@ -121,31 +195,44 @@ img {
   border: none;
   vertical-align: bottom;
 }
+
 img.svg {
   max-width: 100%;
   height: auto;
 }
 
-address, th, caption, em, strong {
+address,
+th,
+caption,
+em,
+strong {
   font-style: normal;
   font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 1rem;
   font-weight: normal;
   margin: 0;
   padding: 0;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   font-size: 1rem;
   font-family: inherit;
   font-weight: inherit;
   color: #444;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -168,14 +255,22 @@ a {
   overflow: hidden;
   outline: none;
 }
-a:link, a:visited {
+
+a:link,
+a:visited {
   text-decoration: none;
 }
-a:hover, a:active {
+
+a:hover,
+a:active {
   text-decoration: underline;
 }
 
-*, *:before, *:after, *::before, *::after {
+*,
+*:before,
+*:after,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -183,7 +278,8 @@ a:hover, a:active {
   box-sizing: border-box;
 }
 
-img, svg {
+img,
+svg {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   -o-box-sizing: content-box;

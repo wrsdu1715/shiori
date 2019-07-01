@@ -7,11 +7,14 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_stylesheets() ?>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,500,700&display=swap');
+    </style>
   </head>
   <body>
     <?php include('common.php'); ?>
     <section class="main">
-      <img src="" alt="FVになります">
+      <?php echo image_tag('main.jpg') ?>
     </section>
     <?php echo $sf_content ?>
     <?php include_javascripts() ?>

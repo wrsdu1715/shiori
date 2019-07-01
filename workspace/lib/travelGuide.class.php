@@ -1,7 +1,10 @@
 <?php
   class TravelGuide{
 
-    public static $RELEASE = '2019-04-22 10:00';
+    public static $RELEASE = array(
+      'fast'    =>  '2019-04-22 10:00',
+      'second'  =>  '2019-04-22 10:00',
+    );
 
     public static $SCHEDULE_DAY = array(
       '2019-04-04',
@@ -11,69 +14,37 @@
     //スケジュール
     public  static $SCHEDULE = array(
       array(
-        "title" => "【午前】各エリア出発",
-        "areaList" => array(
+        'title' => '【午前】各エリア出発',
+        'areaList' => array(
           array(
-            "secondTitle" => "▫️関東(ひかり503号)",
-            "detail" => array(
-              "7:33 東京駅(出発)",
-              "7:50 品川駅(出発)"
+            'secondTitle' => '▫️関東(ひかり503号)',
+            'detail' => array(
+              '7:33 東京駅(出発)',
+              '7:50 品川駅(出発)',
+              '7:51 新横浜(出発)',
+              '9:44 米原駅(到着)',
+            )
+          ),
+          array(
+            'secondTitle' => '▫️大阪(ひかり541号)',
+            'detail' => array(
+              '9:16 新大阪駅(出発)',
+              '9:52 米原駅(到着)',
             )
           ),
         ),
-        "btn" => "",
       ),
       array(
-        "title" => "【午前】各エリア出発",
-        "areaList" => array(
+        'title' => '【午前】米原駅集合',
+        'areaList' => array(
           array(
-            "secondTitle" => "▫️関東(ひかり503号)",
-            "detail" => array(
-              "7:33 東京駅(出発)",
-              "7:50 品川駅(出発)"
-            )
+            'secondTitle' => '9:55 米原駅東口バス乗り場集合',
           ),
         ),
-        "btn" => "a",
+        'btn' => 'GoogleMapはこちら',
       ),
       array(
-        "title" => "【午前】各エリア出発",
-        "areaList" => array(
-          array(
-            "secondTitle" => "▫️関東(ひかり503号)",
-            "detail"      => array(
-              "7:33 東京駅(出発)",
-              "7:50 品川駅(出発)"
-            )
-          ),
-        ),
-        "btn" => "a",
-      ),
-      array(
-        "title" => "【午前】各エリア出発",
-        "areaList" => array(
-          array(
-            "secondTitle" => "▫️関東(ひかり503号)",
-            "detail" => array(
-              "7:33 東京駅(出発)",
-              "7:50 品川駅(出発)"
-            )
-          ),
-        ),
-        "btn" => "a",
-      ),
-      array(
-        "title" => "【午前】各エリア出発",
-        "areaList" => array(
-          array(
-            "secondTitle" => "▫️関東(ひかり503号)",
-            "detail" => array(
-              "7:33 東京駅(出発)",
-              "7:50 品川駅(出発)"
-            )
-          ),
-        ),
-        "btn" => "a",
+        'title' => '移動だよー(20分くらい)',
       ),
     );
 
@@ -82,8 +53,8 @@
       array(
         "number" => "601",
         "members" => array(
-          "tuda",
-          "ryo"
+          "小野寺　こここ",
+          "津田　亮"
         )
       ),
       array(

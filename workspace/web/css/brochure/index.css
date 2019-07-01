@@ -40,6 +40,15 @@ body.fadeout::after {
   opacity: 1;
 }
 
+/* FV */
+.main {
+  margin: 0 -15px 0 -23px;
+}
+
+.main img {
+  width: 100%;
+}
+
 /* メニュー */
 .menu {
   width: 100%;
@@ -151,7 +160,19 @@ body.fadeout::after {
   padding-bottom: 30px;
 }
 
+.schedule_secondBtn a {
+  border: 1px solid #ececec;
+  background: #fff;
+  padding: 10px 0;
+  width: 80%;
+  margin: 10px auto 0;
+  border-radius: 10px;
+  display: block;
+  color: #444;
+}
+
 .l-sectionTitle {
+  padding-top: 30px;
   font-size: 1.2rem;
 }
 
@@ -233,7 +254,6 @@ body.fadeout::after {
 }
 
 .l-content_box_itemTitle {
-  border-bottom: 1px dashed #8CC63E;
   font-size: 1.1rem;
   padding-bottom: 2px;
 }
@@ -241,6 +261,10 @@ body.fadeout::after {
 .l-content_box_itemText {
   font-size: 0.9rem;
   padding-top: 5px;
+}
+
+.l-content_box_itemText:nth-of-type(1) {
+  border-top: 1px dashed #8CC63E;
 }
 
 .l-content_box_itemDetail {
@@ -254,6 +278,8 @@ body.fadeout::after {
   width: calc(100% - 20%);
   margin: 10px auto 0;
   border-radius: 7px;
+  color: #fff;
+  padding-top: 7px;
 }
 
 .l-content_btn a {
