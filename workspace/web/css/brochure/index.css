@@ -207,6 +207,9 @@ body.fadeout::after {
   color: #fff;
   font-size: 0.9rem;
   margin: 0 auto;
+  position: absolute;
+  left: 10px;
+  z-index: 2;
 }
 
 .l-day_text span {
@@ -260,7 +263,7 @@ body.fadeout::after {
 
 .l-content_box_itemText {
   font-size: 0.9rem;
-  padding-top: 5px;
+  padding: 5px 0 0 5px;
 }
 
 .l-content_box_itemText:nth-of-type(1) {
@@ -269,7 +272,7 @@ body.fadeout::after {
 
 .l-content_box_itemDetail {
   font-size: 0.8rem;
-  padding: 2px 0 0 1rem;
+  padding: 2px 0 0 16px;
 }
 
 .l-content_btn {

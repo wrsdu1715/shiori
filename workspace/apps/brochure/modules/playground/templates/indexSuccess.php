@@ -13,14 +13,14 @@
     <div class="schedule_content">
       <div class="l-day">
         <?php foreach ($days as $key => $day ) { ?>
-          <p id="<?php echo ($key < 1) ? 'second' : '' ?>" class="l-day_text <?php echo ($key < 1) ? 'day' : '' ?>">
+          <p id="<?php echo ($key == 1) ? 'second' : '' ?>" class="l-day_text <?php echo ($key == 1) ? 'day' : '' ?>">
             <?php $date = date('m/d', strtotime($day)) ?>
             <?php echo $date . '<br><span>(' . '曜日' . ')</span>' ?>
           </p>
         <?php } ?>
       </div>
       <div class="l-content">
-        <?php foreach ($schedules as $schedule) {?>
+        <?php foreach ($schedules as $schedule) { ?>
           <div class="l-content_box">
             <h3 class="l-content_box_itemTitle">
               <?php echo $schedule['title'] ?>
